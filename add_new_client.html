@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- header area start here  -->
+  <header id="header-area">
+    <div class="logo">
+      <a href="index.html"><img src="images/logo.png" alt=""></a>
+    </div>
+    <div class="search">
+      <input type="search" name="" id="" placeholder="🔎︎ Search">
+    </div>
+    <div class="profile">
+      <div class="profile-text">
+        <h3>Hello Jonathan</h3>
+        <span>Admin Account</span>
+      </div>
+      <div class="profile-img">
+        <img src="images/profile.jpg" alt="">
+      </div>
+    </div>
+  </header>
+  <!-- header area end here  -->
+  <!-- content area start here  -->
+  <div class="content-area">
+    <!-- sidebar start here -->
+    <div class="sidebar">
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="#"><i class="fa-solid fa-house mr"></i>Home<i class="fa-solid fa-chevron-down arrow"></i></a>
+            <div class="sub-menu">
+              <ul>
+                <li><a href="dasboard.html">Admin Dashboard</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-people-group mr"></i>clients<i class="fa-solid fa-chevron-down arrow"></i></a>
+            <div class="sub-menu">
+              <ul>
+                <li><a href="add_new_client.html">Add New</a></li>
+                <li><a href="all-client.html">All Clients</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#"><i class="fa-regular fa-user mr"></i>influencers<i class="fa-solid fa-chevron-down arrow"></i></a>
+            <div class="sub-menu">
+              <ul>
+                <li><a href="#">Add New</a></li>
+                <li><a href="#">All influencers</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-video mr"></i>media<i class="fa-solid fa-chevron-down arrow"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-bullhorn mr"></i>campaigns<i class="fa-solid fa-chevron-down arrow"></i></a>
+            <div class="sub-menu">
+              <ul>
+                <li><a href="#">Add New</a></li>
+                <li><a href="#">ongoin campaign</a></li>
+                <li><a href="#">draft campaign</a></li>
+                <li><a href="#">all campaign</a></li>
+                <li><a href="#">approve</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-credit-card mr"></i>payment<i class="fa-solid fa-chevron-down arrow"></i></a>
+            <div class="sub-menu">
+              <ul>
+                <li><a href="#">invoice</a></li>
+                <li><a href="#">quatation</a></li>
+              </ul>
+            </div>
+          <li>
+            <a class="sub-btn" href="#"><i class="fa-solid fa-gear mr"></i>setting<i class="fa-solid fa-chevron-down arrow"></i></a>
+            <div class="sub-menu">
+              <ul>
+                <li><a href="#">add a new user</a></li>
+                <li><a href="#">update profile</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- sidebar end here -->
+    <!-- main content area start here  -->
+    <div class="main-content add-client">
+      <div class="profile">
+        <h2>Profile</h2>
+      </div>
+      <div class="add-form">
+        <div class="form-col email">
+          <label for="email">Email :</label><br>
+          <input type="email" name="" id="email" placeholder="Enter email">
+        </div>
+        <div class="form-col address">
+          <label for="address">Address :</label><br>
+          <input type="text" name="" id="address" placeholder="Enter address">
+        </div>
+        <div class="form-col vat">
+          <label for="vat">Vat Number :</label><br>
+          <input type="text" id="vat" placeholder="Enter vat number">
+        </div>
+        <div class="form-col file">
+          <label for="logo">Logo :</label><br>
+          <input type="file" name="file" id="logo">
+        </div>
+      </div>
+      <div class="social-profile">
+        <h2>Social Link</h2>
+      </div>
+      <div class="social-link">
+        <div class="social-account">
+          <div class="acc-link">Twitter</div>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="social-account">
+          <div class="acc-link">YouTube</div>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="social-account">
+          <div class="acc-link">TikTok</div>
+          <a href=""><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+        <div class="social-account">
+          <div class="acc-link">Instagram</div>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="social-account">
+          <div class="acc-link">Facebook</div>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <div class="social-account">
+          <div class="acc-link">Telegram</div>
+          <a href=""><i class="fa-brands fa-telegram"></i></a>
+        </div>
+      </div>
+      <div class="admin-note">
+        <h2>Admin Note</h2>
+      </div>
+      <div class="message">
+        <form action="">
+          <textarea name="" cols="30" rows="8" placeholder="Type here"></textarea>
+          <input class="form-btn" type="submit" value="Save">
+        </form>
+      </div>
+    </div>
+    <!-- main content end start here  -->
+  </div>
+  <!-- content area end here  -->
+  <script src="js/all.min.js"></script>
+  <script src="js/fontawesome.min.js"></script>
+</body>
+</html>

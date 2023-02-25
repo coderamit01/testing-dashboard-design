@@ -1,0 +1,216 @@
+/* Admin file responsive  */
+
+@media screen and (max-width: 1280px){
+  .sidebar {
+    width: 340px;
+  }
+  .main-content {
+    margin-left: 340px;
+  }
+  .left {
+    right: -90%;
+  }
+  
+}
+
+@media screen and (max-width: 1024px){
+  .sidebar {
+    width: 340px;
+  }
+  .main-content {
+    margin-left: 340px;
+  }
+  .my-img {
+      display: block;
+      width: 100%;
+  }
+  .my-form {
+    width: 70%;
+  }
+  .my-img .img-box img {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+  }
+  .m-form div{
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+  width: 150px;
+  background-color: #1e272e;
+  margin-bottom: 10px;
+  }
+  .m-form input {
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    width: 200px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+  }
+  .short-pf {
+    width: 100%;
+    background-color: #0E1621;
+    padding: 0 20px 20px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+  }
+  .left {
+    right: -200%;
+    margin-top: 4px;
+  }
+  .invoices {
+    display: block;
+    align-items: center;
+  }
+  .invoice {
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid #ffffff;
+    margin-bottom: 20px;
+  }
+  .complete-camp {
+    width: 100%;
+    border: 1px solid #ffffff;
+    padding: 0 5px;
+  }
+}
+@media screen and (max-width: 992px){
+  .my-img {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #ffffff;
+  }
+  .left {
+    right: -185%;
+    margin-top: 4px;
+  }
+}
+@media screen and (max-width: 768px){
+  .sidebar {
+    width: 280px;
+  }
+  .main-content {
+    margin-left: 280px;
+  }
+  #header-area .search input{
+    width: 250px;
+    border-radius: 60px;
+  }
+  .ongoing-camp {
+    padding: 30px;
+  }
+  .card {
+    display: block;
+    width: 47%;
+    padding: 20px;
+  }
+  .card .card-img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .card-text {
+    width: 100%;
+    text-align: center;
+  }
+  .social-link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 0 20px;
+  }
+  .social-account {
+    width: 31%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .add-client .profile {
+    margin-top: 10px;
+  }
+  .my-profile {
+    display: block;
+    align-items: center;
+    background-color: #0E1621;
+  }
+  .my-img {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #ffffff;
+  }
+  .left {
+    right: -105%;
+    margin-top: 4px;
+  }
+  .my-form div {
+    display: block;
+    text-align: left;
+    background-color: transparent;
+    padding: 0;
+  }
+  .m-form input {
+    text-align: left;
+    width: 400px;
+  }
+}
+@media screen and (max-width: 600px){
+  .sidebar {
+    width: 240px;
+  }
+  .main-content {
+    margin-left: 240px;
+  }
+  #header-area .search input{
+    width: 180px;
+    border-radius: 60px;
+  }
+  .ongoing-camp {
+    padding: 20px;
+  }
+  .cards {
+    display: flex;
+  }
+  .card {
+    width: 100%;
+    padding: 20px;
+  }
+  .card .card-img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .card-text {
+    width: 100%;
+    text-align: center;
+  }
+  .add-form .form-col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .my-img .img-box img {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+  }
+  .name {
+    display: inline-block;
+    margin-top: 5px;
+  }
+  .m-form input {
+    text-align: left;
+    width: 300px;
+  }
+  .left {
+    right: -100%;
+    margin-top: 4px;
+  }
+
+}
