@@ -1,1 +1,1 @@
-# testing-dashboard-design
+# dashboard-design
